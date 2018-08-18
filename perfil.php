@@ -28,6 +28,9 @@
         <form class="contenedor1">
             <h3>Presentacion</h3>
             <div id="contenido">
+                <?php
+                    var_dump($_POST);
+                ?>
                 <p id="txt-nombre">Nombre</p>
                 <p id="txt-password">contraseña</p>
                 <p id="txt-mail">Correo electronico</p>
