@@ -1,0 +1,82 @@
+body{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-family: Helvetica;
+    overflow-y: scroll;
+    overflow-y: visible;
+    
+}
+
+.container-fluid{
+    height: 100%;
+    width: 100%;
+}
+
+/*INICIO Nav Bar*/
+.navbar{
+    background-color:#4267B2 !important;
+    height: 50px;
+}
+.navbar-img-logo{
+    position: relative;
+    float: right;
+}
+
+#navbar-img-perfil-1{
+    width: 40px;
+    margin: 0 15px;
+}
+
+nav form input[type=search]{
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.container {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 45px;
+    width: 50%;
+  }
+  
+
+  .container img {
+    width:32%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+  }
+/*FIN Nav Bar*/
+
+/*====================primera fase del perfil=============================*/
+#seccion1{
+    background-image: url(../img/portada.png); 
+    background-position-x: 20%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-origin: initial;
+    background-color: #E9EBEE;
+    display: block;
+    height: 250px;
+    max-width:100%;
+}
+
+#foto{
+    position: relative;
+    top:100px;
+    margin-left: 10%;
+}
+
+#seccion2{
+background-color: #E9EBEE;
+height: 100%;
+}
+.contenedor1{
+    background-color: #fff;
+    width: 25%;
+    margin-left:90px;
+    position: relative;
+    float: left;
+    top: 40px;
+}
