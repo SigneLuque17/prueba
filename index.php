@@ -12,7 +12,7 @@
   <div class="img"></div>
 <nav class="navbar">
   <h1>Facebook</h1>
-  <form action="">
+  <form action="home.php">
     <input type="text" id="user-login"><label id="label-user-login" for="user-login">Correo electronico o telefono</label>
     <input type="text" id="user-login-password"><label id="label-user-password" for="user-login-password">Contraseña</label>
     <button id="btn-login">Iniciar sesion</button>
@@ -21,7 +21,7 @@
 
 <div id="formulario">
   <h2>Registrate</h2>
-  <form action="">
+  <form action="home.php">
     <input class="user-name" type="text" placeholder="Nombre">
     <input class="user-name" type="text" placeholder="Apellido"><br>
     <input class="user-credencial" type="mail" placeholder="Numero de celular o correo electronico"><br>
@@ -34,5 +34,7 @@
     <button id="btn-registro" class="btn btn-success">Registrate</button>
   </form>
 </div>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/controlador.js"></script>
 </body>
 </html>
